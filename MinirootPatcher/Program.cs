@@ -17,7 +17,7 @@ namespace MinirootPatcher
                 Console.WriteLine($"Usage: \n" +
                                   $"{myName} -m X:\\minirootXX.img \n" +
                                   $"{myName} -i X:\\idbloader.img \n" +
-                                  $"{myName} -u:\\u-boot.itb");
+                                  $"{myName} -u X:\\u-boot.itb");
                 Environment.Exit(0);
             }
 
