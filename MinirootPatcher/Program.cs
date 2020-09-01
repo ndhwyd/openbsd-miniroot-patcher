@@ -15,9 +15,9 @@ namespace MinirootPatcher
             {
                 var myName = AppDomain.CurrentDomain.FriendlyName;
                 Console.WriteLine($"Usage: \n" +
-                                  $"{myName} -m X:\\minirootXX.img \n" +
-                                  $"{myName} -i X:\\idbloader.img \n" +
-                                  $"{myName} -u X:\\u-boot.itb");
+                                  $"{myName} -m X:\\minirootXX.img " +
+                                  $"-i X:\\idbloader.img " +
+                                  $"-u X:\\u-boot.itb");
                 Environment.Exit(0);
             }
 
